@@ -27,5 +27,28 @@
 
 
 
+.mr190 {margin-right: 190px;}
 
 
+.w80p {width: 80%;}
+
+
+
+
+
+
+
+#wrap {overflow: hidden; position: relative; width: 100vw; min-height: 100vh; padding: 100px 0 0;}
+
+
+
+#header {position: fixed; top: 0; left: 0; right: 0; z-index: 100; width: 100vw; background: #fff;}
+#header .header_white {position: relative; width: 100%; max-width: 1600px; height: 100px; margin: 0 auto;}
+#header .header_white .logo {position: absolute; top: 39px; left: 50px;}
+
+#header .header_white .category {position: absolute; top: 0; left: 50%; transform: translateX(-50%); font-size: 18px; line-height: 100px; color: #465a7b; min-width: 800px;}
+#header .header_white .category ul li {display: inline-block; float: left; width: 160px; text-align: center; font-weight: 500;}
+#header .header_white .category ul li:hover {background-color: #ebeff5;}
+
+#header .header_white .btn_menu {display: block; float: right; width: 50px; height: 50px; margin-top: 30px; padding: 0; background: url(../images/ico/head_icon_menu.png) center center no-repeat; text-indent: -9999em;}
+#header .header_white .btn_search {display: block; float: right; width: 50px; height: 50px; margin-top: 30px; padding: 0; background: url(../images/ico/head_icon_search.png) center center no-repeat; text-indent: -9999em;}
