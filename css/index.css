@@ -1,0 +1,99 @@
+
+#container .contents {overflow: hidden; height: 600px; position: relative;}
+#container .contents .left {float: left; width: 176px; height: 600px; text-align: center; position: relative;}
+#container .contents .left p {writing-mode: vertical-lr; transform: rotate(180deg); font-size: 8px; letter-spacing: 4px; position: absolute; left: 50px; top: auto; bottom: auto; height: 100%;}
+#container .contents .left .page {font-size: 18px; position: absolute; left: 50px; bottom: 50px;}
+
+#container .contents .right {float: right; width: 100px; height: 600px; text-align: center; position: relative;}
+#container .contents .right p {writing-mode: vertical-lr; font-size: 8px; letter-spacing: 4px; position: absolute; right: 50px; top: auto; bottom: auto; height: 100%;}
+
+
+#container .contents .center {float: left;}
+
+#container .contents .center .head {margin-top: 100px;}
+#container .contents .center .head .part {font-size: 14px; font-weight: 600; letter-spacing: 1px;}
+#container .contents .center .head .part span {color: rgb(112, 112, 112); margin-left: 10px; font-size: 12px;}
+
+#container .contents .center .title {margin-top: 30px; margin-left: -5px;}
+#container .contents .center .title h2 {font-size: 70px; letter-spacing: -8px; line-height: 82px;}
+
+#container .contents .center .more_btn {margin-top: 40px;}
+#container .contents .center .more_btn button {font-size: 15px; border: 1px solid; padding: 10px 14px; font-weight: 400;}
+#container .contents .center .more_btn button:hover {border: 1px solid #e71364; color: #e71364;}
+
+#container .contents .center .details {overflow: hidden; position: absolute; bottom: 50px;}
+#container .contents .center .details div {float: left; margin-right: 80px;} 
+#container .contents .center .details div h4 {font-size: 14px; font-weight: 400;}
+#container .contents .center .details div p {font-size: 14px; font-weight: 400; color: #aaa; margin-top: 6px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
