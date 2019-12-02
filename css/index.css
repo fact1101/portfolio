@@ -15,11 +15,40 @@
 #container .contents .center .head .part span {color: rgb(112, 112, 112); margin-left: 10px; font-size: 12px;}
 
 #container .contents .center .title {margin-top: 30px; margin-left: -5px;}
-#container .contents .center .title h2 {font-size: 70px; letter-spacing: -8px; line-height: 82px;}
+#container .contents .center .title h2 {font-size: 70px; letter-spacing: -4px; line-height: 82px;}
 
 #container .contents .center .more_btn {margin-top: 40px;}
 #container .contents .center .more_btn button {font-size: 15px; border: 1px solid; padding: 10px 14px; font-weight: 400;}
 #container .contents .center .more_btn button:hover {border: 1px solid #e71364; color: #e71364;}
+
+
+
+/*
+.btn {line-height: 50px; height: 50px; text-align: center; width: 250px; cursor: pointer;}
+
+.btn-one {color: #000; transition: all 0.3s; position: relative;}
+.btn-one img {width: 50px; float: left; margin-left: 10px; margin-right: 10px; margin-top: 4px; transition: all 0.3s;}
+.btn-one p {font-size: 15px; float: left; line-height: 40px; font-weight: 400; color: #000; transition: all 0.3s;}
+.btn-one::before {content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 1; opacity: 0; transition: all 0.3s; border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; border-top-color: rgba(0,0,0,0.5); border-bottom-color: rgba(0,0,0,0.5); transform: scale(0.1, 1);}
+.btn-one:hover img {margin-left: 5px;}
+.btn-one:hover p {letter-spacing: 2px;}
+.btn-one:hover::before {opacity: 1;  transform: scale(1, 1); }
+.btn-one::after {content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 1; transition: all 0.3s; background-color: rgba(255,255,255,0.1);}
+.btn-one:hover::after {opacity: 0;  transform: scale(0.1, 1);}
+*/
+
+
+#container .contents .center .more_btn .img_btn a {background: url(../images/img/img_more.png) no-repeat center left 20px; background-size: 50px; display: block; width: 230px; height: 60px; 
+    line-height: 60px; font-size: 15px; font-weight: 400; text-decoration: none;  border: 1px solid #333; text-align: right; position: relative; transition: all .35s; 
+    padding-right: 30px;}
+#container .contents .center .more_btn .black a {color: #333;}
+#container .contents .center .more_btn .img_btn a span{position: relative; z-index: 2;}
+#container .contents .center .more_btn .img_btn a img {width: 50px; float: left; margin-left: 10px; margin-right: 10px; margin-top: 4px;}
+#container .contents .center .more_btn .img_btn a:after{position: absolute; content: ""; top: 0; left: 0; width: 0; height: 100%; transition: all .35s; 
+    background: #333 url(../images/img/img_more.png) no-repeat center left 20px; background-size: 50px;}
+#container .contents .center .more_btn .img_btn a:hover{color: #fff;}
+#container .contents .center .more_btn .img_btn a:hover:after{width: 100%;}
+
 
 #container .contents .center .details {overflow: hidden; position: absolute; bottom: 50px;}
 #container .contents .center .details div {float: left; margin-right: 80px;} 
@@ -28,8 +57,8 @@
 
 
 
-#container .img {text-align: center; background-color: #191919;} 
-#container .img img {width: 1000px;}
+#container .img {} 
+#container .img img {}
 
 
 
