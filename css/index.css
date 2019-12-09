@@ -38,16 +38,31 @@
 */
 
 
-#container .contents .center .more_btn .img_btn a {background: url(../images/img/img_more.png) no-repeat center left 20px; background-size: 50px; display: block; width: 230px; height: 60px; 
-    line-height: 60px; font-size: 15px; font-weight: 400; text-decoration: none;  border: 1px solid #333; text-align: right; position: relative; transition: all .35s; 
-    padding-right: 30px;}
-#container .contents .center .more_btn .black a {color: #333;}
+/* more button */
+
+#container .contents .center .more_btn .img_btn a {display: block; height: 60px; line-height: 60px; font-size: 15px; font-weight: 400; text-decoration: none;
+    border: 1px solid #333; text-align: right; position: relative; transition: all .35s; padding-right: 30px;}
 #container .contents .center .more_btn .img_btn a span{position: relative; z-index: 2;}
 #container .contents .center .more_btn .img_btn a img {width: 50px; float: left; margin-left: 10px; margin-right: 10px; margin-top: 4px;}
-#container .contents .center .more_btn .img_btn a:after{position: absolute; content: ""; top: 0; left: 0; width: 0; height: 100%; transition: all .35s; 
-    background: #333 url(../images/img/img_more.png) no-repeat center left 20px; background-size: 50px;}
+#container .contents .center .more_btn .img_btn a:after{position: absolute; content: ""; top: 0; left: 0; width: 0; height: 100%; transition: all .35s; }
 #container .contents .center .more_btn .img_btn a:hover{color: #fff;}
 #container .contents .center .more_btn .img_btn a:hover:after{width: 100%;}
+
+/* more button */
+
+
+
+/* mac beauty */
+#container .contents .center .more_btn .mac a {width: 190px; color: #333; background: url(../images/img/img_mac.png) no-repeat center left 20px; background-size: 50px; }
+#container .contents .center .more_btn .mac a:after {background: #333 url(../images/img/img_mac.png) no-repeat center left 20px; background-size: 50px;}
+/* mac beauty */
+
+
+/* chocopie */
+#container .contents .center .more_btn .chocopie a {width: 230px; color: #333; background: url(../images/img/img_chocopie.png) no-repeat center left 20px; background-size: 50px; }
+#container .contents .center .more_btn .chocopie a:after {background: #333 url(../images/img/img_chocopie.png) no-repeat center left 20px; background-size: 50px;}
+/* chocopie */
+
 
 
 #container .contents .center .details {overflow: hidden; position: absolute; bottom: 50px;}
