@@ -73,7 +73,7 @@
 
 
 #container .img {} 
-#container .img img {}
+#container .img img {width: 100%;}
 
 
 
