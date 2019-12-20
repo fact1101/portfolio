@@ -101,7 +101,14 @@
     #container .contents .center {margin: 0 50px;}
     #container .contents .center .details div {margin-bottom: 20px;}
 }
-
+@media ( max-width: 600px ) {
+    #container .contents {height: 515px;}
+    #container .contents .center .head {margin-top: 35px;}
+    #container .contents .center .title {margin-top: 10px;}
+    #container .contents .center .title h2 {font-size: 40px; line-height: 45px;}
+    #container .contents .center .more_btn {margin-top: 20px;}
+    #container .contents .center .more_btn .mac a {width: 100%;}
+}
 
 
 
