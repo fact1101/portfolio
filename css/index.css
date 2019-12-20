@@ -88,6 +88,22 @@
 
 
 
+/* 반응형 */
+
+
+@media ( max-width: 1100px ) {
+    #header .header_white .category {display: none;}
+    #container .contents .center .title h2 {font-size: 55px; line-height: 65px;}
+}
+@media ( max-width: 810px ) {
+    #container .contents .left {display: none;}
+    #container .contents .right {display: none;}
+    #container .contents .center {margin: 0 50px;}
+    #container .contents .center .details div {margin-bottom: 20px;}
+}
+
+
+
 
 
 
