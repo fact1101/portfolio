@@ -102,6 +102,8 @@
     #container .contents .center .details div {margin-bottom: 20px;}
 }
 @media ( max-width: 600px ) {
+    #header .header_white {height: 70px;}
+    #header .header_white .logo {top: 20px;}
     #container .contents {height: 515px;}
     #container .contents .center .head {margin-top: 35px;}
     #container .contents .center .title {margin-top: 10px;}
